@@ -3,7 +3,7 @@
   background-position: right !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  min-height: 100vh !important;
+  min-height: 100% !important;
 }
 
 .mainBackgroundColor {
@@ -17,22 +17,7 @@
 .gridImageGrid {
   margin-left: auto !important;
   margin-right: auto !important;
-  opacity: 0.4 !important;
-}
-
-.fadeBottom {
-  position: absolute;
-  bottom: 0px;
-
-  display: block;
-
-  width: 100%;
-  height: 50px;
-
-  background-image: linear-gradient(to bottom, 
-      rgba(255, 255, 255, 0), 
-      rgba(255, 255, 255, 0.9)
-  100%);
+  opacity: 0.8 !important;
 }
 
 .headerText, .launchesInText {
@@ -113,6 +98,24 @@
   top: 0 !important;
   left: 20% !important;
   box-shadow: 5px 10px 15px #888888 !important;
+}
+
+@media(max-width: 1150px) {
+  .gridImageGrid {
+    margin-top: 3% !important;
+  }
+}
+
+@media(max-width: 800px) {
+  .gridImageGrid {
+    margin-top: 6% !important;
+  }
+}
+
+@media(max-width: 600px) {
+  .gridImageGrid {
+    margin-top: 15% !important;
+  }
 }
 
 @media(max-width: 800px) {

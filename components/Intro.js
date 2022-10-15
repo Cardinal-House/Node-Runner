@@ -42,7 +42,7 @@ export default function Intro(props) {
         </Grid>
       </Grid>
       <Grid item lg={4} md={6} sm={8} xs={10} className={styles.gridImageGrid}>
-        <Image src="/NodeRunnerGridFaded.png" width="750" height="750" />
+        <Image src="/3DNodeRunnerNFT.png" width="450" height="450" />
       </Grid>
     </Grid>
   )
