@@ -33,8 +33,8 @@ export default function GetInvolved(props) {
         <Typography variant="h3" id="involvedText" ref={involvedTextRef} className="mt-4 text-center">
           Node Runner will be an exclusive benefit to the Cardinal Crew members in the Cardinal House Discord. 
           Wallets that are whitelisted through Cardinal Crew will be the only wallets allowed to mint NFTs and interact on the secondary marketplace.
-          If you're interested being involved in Node Runner, check out the Cardinal House Discord server and consider becoming
-          a Cardinal Crew member. Once Node Runner launches later this month, you'll then be able to mint Node Runner NFTs!
+          If you&apos;re interested being involved in Node Runner, check out the Cardinal House Discord server and consider becoming
+          a Cardinal Crew member. Once Node Runner launches later this month, you&apos;ll then be able to mint Node Runner NFTs!
           There are also many other benefits to being a Cardinal Crew member besides being able to participate in Node Runner.
         </Typography>
       </Grid>

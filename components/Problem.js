@@ -35,7 +35,7 @@ export default function Problem(props) {
           node goes offline.  
         </Typography>
         <Typography variant="h3" id="problemText2" ref={problemText2Ref} className="mt-4 text-center">
-          To put it simply, it isn't feasible for a vast majority of people to enjoy the fruits of these validator nodes.
+          To put it simply, it isn&apos;t feasible for a vast majority of people to enjoy the fruits of these validator nodes.
         </Typography>
       </Grid>
     </Grid>

@@ -39,7 +39,7 @@ export default function WhatSeparatesUs(props) {
                 <Typography variant="p" component="div" className={clsx(styles.bigBtnDescriptionText, "font-bold mt-5")}>
                   With projects like Hydro Whales, the floor price increasing after an NFT Mint negates much of the ROI. For example, Hydro Whales minted at a around $500, but 
                   the floor price is currently sitting at $2,260. This means the ROI is actually 75% lower now than if you got in at $500.
-                  With Node Runner, NFT collections for nodes will increase with demand so this won't be a problem.
+                  With Node Runner, NFT collections for nodes will increase with demand so this won&apos;t be a problem.
                 </Typography>
                 <Button variant="outlined" className="mt-3" href="https://cardinal-house.gitbook.io/node-runner/process-overview/nfts" target="_blank" rel="noreferrer">
                   How the NFTs Work
