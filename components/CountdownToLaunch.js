@@ -35,7 +35,7 @@ export default function CountdownToLaunch(props) {
       </Grid>
       <Grid item lg={8} md={10} sm={12} xs={12} className={styles.afterCountdownText}>
         <Typography variant="h2" id="afterCountdownText" ref={afterCountdownTextRef}>
-          Once Node Runner Launches, Go to the Cardinal House dApp to mintyour node NFTs!
+          Once Node Runner Launches, Go to the Cardinal House dApp to mint your node NFTs!
         </Typography>
       </Grid>
       <Grid item lg={8} md={10} sm={12} xs={12} className="mt-5 mb-5">
