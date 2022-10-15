@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Grid, Button, Typography, Tooltip } from '@mui/material';
 import clsx from 'clsx';
 
@@ -39,6 +40,9 @@ export default function Intro(props) {
               </Button>
             </div>
         </Grid>
+      </Grid>
+      <Grid item lg={4} md={6} sm={8} xs={10} className={styles.gridImageGrid}>
+        <Image src="/NodeRunnerGridFaded.png" width="750" height="750" />
       </Grid>
     </Grid>
   )

@@ -31,9 +31,8 @@ nav .container {
 }
 
 .navBrandTextMain {
-    margin-left: 15% !important;
     font-size: 22px !important;
-    color: var(--red-primary-color) !important;
+    color: #dc0000 !important;
 }
 
 .navDropdown {
@@ -102,7 +101,7 @@ nav .container {
 
 @media (max-width: 1500px) and (min-width: 1350px) {
     .navBrandText, .navBrandTextMain {
-        font-size: 16px !important;
+        font-size: 22px !important;
     }
 
     .navText {
@@ -116,7 +115,7 @@ nav .container {
     }
 
     .iconSize {
-        font-size: 1.5rem !important;
+        font-size: 1.75rem !important;
     }
     
     .iconSizeTheme {
@@ -126,7 +125,7 @@ nav .container {
 
 @media (max-width: 1350px) and (min-width: 1200px) {
     .navBrandText, .navBrandTextMain {
-        font-size: 16px !important;
+        font-size: 22px !important;
     }
 
     .navText {
@@ -140,7 +139,7 @@ nav .container {
     }
 
     .iconSize {
-        font-size: 1.25rem !important;
+        font-size: 1.75rem !important;
     }
     
     .iconSizeTheme {
@@ -150,7 +149,7 @@ nav .container {
 
 @media (max-width: 1200px) and (min-width: 1110px) {
     .navBrandText, .navBrandTextMain {
-        font-size: 14px !important;
+        font-size: 22px !important;
     }
 
     .navText {
@@ -164,7 +163,7 @@ nav .container {
     }
 
     .iconSize {
-        font-size: 1.15rem !important;
+        font-size: 1.75rem !important;
     }
     
     .iconSizeTheme {
@@ -178,7 +177,7 @@ nav .container {
 
 @media (max-width: 1110px) and (min-width: 992px) {
     .navBrandText, .navBrandTextMain {
-        font-size: 10px !important;
+        font-size: 22px !important;
     }
 
     .navText {
@@ -192,7 +191,7 @@ nav .container {
     }
 
     .iconSize {
-        font-size: 1.15rem !important;
+        font-size: 1.75rem !important;
     }
     
     .iconSizeTheme {

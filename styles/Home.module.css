@@ -14,6 +14,27 @@
   background-color: var(--dark-primary-color) !important;
 }
 
+.gridImageGrid {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  opacity: 0.4 !important;
+}
+
+.fadeBottom {
+  position: absolute;
+  bottom: 0px;
+
+  display: block;
+
+  width: 100%;
+  height: 50px;
+
+  background-image: linear-gradient(to bottom, 
+      rgba(255, 255, 255, 0), 
+      rgba(255, 255, 255, 0.9)
+  100%);
+}
+
 .headerText, .launchesInText {
   background: -webkit-linear-gradient(#eb175a, #c90202) !important;
   -webkit-background-clip: text !important;

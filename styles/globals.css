@@ -140,7 +140,12 @@ a {
   overflow-x: hidden !important;
 }
 
+.MuiButton-containedPrimary {
+  border-radius: 25px !important;
+}
+
 .MuiButton-outlinedPrimary {
+  border-radius: 25px !important;
   border: 2px solid var(--red-primary-color) !important;
 }
 
