@@ -13,7 +13,7 @@ export default function Navigation(props) {
                 <Navbar.Text className={styles.navBarBrand}>
                     <Container>
                         <Navbar.Brand className={styles.navBarBrand}>
-                            <img alt="" src="/NodeRunnerLogoSimple.png" width="40" height="55" className={clsx(styles.logoImage)} />
+                            <img alt="" src="/NodeRunnerLogoNew.png" width="65" height="35" className={clsx(styles.logoImage)} />
                             <Typography variant="p" className={styles.navBrandTextMain}>
                                 <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Node Runner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
                             </Typography>
@@ -35,7 +35,7 @@ export default function Navigation(props) {
                                     </a>
                                 </div>
                                 <div className={clsx(styles.socialIcon, styles.socialIconSpacing)}>
-                                    <a href="https://twitter.com/Sleeeping_Giant" target="_blank" rel="noreferrer">
+                                    <a href="https://twitter.com/Node_Runner_" target="_blank" rel="noreferrer">
                                         <FaTwitter className={styles.iconSize} />
                                     </a>
                                 </div>
