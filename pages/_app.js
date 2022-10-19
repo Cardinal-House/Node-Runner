@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather+Sans:wght@500&family=Nunito+Sans:wght@600;800&family=Prompt&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Bungee+Shade&family=Merriweather+Sans:wght@500&family=Nunito+Sans:wght@600;800&family=Prompt&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet" />
       </Head>
       <div className="mainBackground">
         <Component {...pageProps} />

@@ -31,8 +31,12 @@ nav .container {
 }
 
 .navBrandTextMain {
+    font-family: 'Bungee Shade' !important;
     font-size: 22px !important;
-    color: #dc0000 !important;
+    background: -webkit-linear-gradient(#eb175a, #c90202) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
 .navDropdown {

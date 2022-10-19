@@ -60,7 +60,11 @@
 .bar {
   margin: auto !important;
   width: 50% !important;
-  border-bottom: 4px solid rgba(255, 0, 0, 0.8) !important;
+  /*border-bottom: 4px solid linear-gradient(to right, #eb175a,#c60000) !important;*/
+  /*border-bottom: 4px solid rgba(255, 0, 0, 0.8) !important;*/
+  border: solid !important;
+  border-image: linear-gradient(to right, #eb175a,#c60000) !important;
+  border-image-slice: 1 !important;
 }
 
 .customCard {
