@@ -3,7 +3,13 @@
   background-position: right !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  min-height: 100% !important;
+  min-height: 100vh !important;
+}
+
+@media(min-width: 2000px) {
+  .introBackground {
+    min-height: 100% !important;
+  }
 }
 
 .mainBackgroundColor {
@@ -15,6 +21,7 @@
 }
 
 .gridImageGrid {
+  padding-left: 3% !important;
   margin-left: auto !important;
   margin-right: auto !important;
   opacity: 0.8 !important;
@@ -107,6 +114,7 @@
 @media(max-width: 1150px) {
   .gridImageGrid {
     margin-top: 3% !important;
+    padding-left: 0% !important;
   }
 }
 

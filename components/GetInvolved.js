@@ -17,7 +17,7 @@ export default function GetInvolved(props) {
   // Loads animations for elements of the page.
   useEffect(() => {
     gsap.fromTo(involvedHeaderRef.current, {opacity: 0}, { opacity: 1, duration: 0.7, scrollTrigger: { trigger: "#involvedHeader", start: "bottom bottom" } });
-    gsap.fromTo(involvedTextRef.current, {opacity: 0}, { opacity: 1, duration: 0.7, scrollTrigger: { trigger: "#involvedText", start: "bottom bottom" } });
+    gsap.fromTo(involvedTextRef.current, {opacity: 0}, { opacity: 1, duration: 0.7, scrollTrigger: { trigger: "#involvedHeader", start: "bottom bottom" } });
     gsap.fromTo(involvedBtn1Ref.current, {opacity: 0}, { opacity: 1, duration: 0.7, scrollTrigger: { trigger: "#involvedBtn1", start: "bottom bottom" } });
     gsap.fromTo(involvedBtn2Ref.current, {opacity: 0}, { opacity: 1, duration: 0.7, scrollTrigger: { trigger: "#involvedBtn2", start: "bottom bottom" } });
   }, [])

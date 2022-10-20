@@ -13,7 +13,7 @@ export default function Navigation(props) {
                 <Navbar.Text className={styles.navBarBrand}>
                     <Container>
                         <Navbar.Brand className={styles.navBarBrand}>
-                            <img alt="" src="/NodeRunnerLogoText.png" width="150" height="20" className={clsx(styles.logoImage)} />
+                            <img alt="" src="/NodeRunnerLogoText.png" width="175" height="23" className={clsx(styles.logoImage)} />
                             {/*
                             <Typography variant="p" className={styles.navBrandTextMain}>
                                 <b>&nbsp;&nbsp;Node Runner</b>
