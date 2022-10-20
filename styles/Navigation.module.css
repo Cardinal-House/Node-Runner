@@ -89,6 +89,7 @@ nav .container {
 
 .logoImage {
     display: inline-block!important;
+    opacity: 0.9 !important;
 }
 
 .connectBtnDiv {
