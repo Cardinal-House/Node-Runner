@@ -32,7 +32,7 @@ export default function Navigation(props) {
                         <IconContext.Provider value={{ color: "#eb175a" }} className={styles.socialIcons}>
                             <div className={styles.socialIcons}>
                                 <div className={styles.socialIcon}>
-                                    <a href="https://discord.gg/qa3GGsFfwC" target="_blank" rel="noreferrer">
+                                    <a href="https://discord.gg/Sw5qsDx2kr" target="_blank" rel="noreferrer">
                                         <FaDiscord className={styles.iconSize} />
                                     </a>
                                 </div>
