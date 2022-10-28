@@ -27,23 +27,21 @@ export default function CountdownToLaunch(props) {
     <Grid container justifyContent="center" className={clsx(styles.introGrid, "text-center")}>
       <Grid item lg={10} md={10} sm={12} xs={12}>
         <Typography variant="h2" id="launchesInHeader" ref={launchesInHeaderRef} className={styles.launchesInText}>
-          Node Runner Launches In:
+          Node Runner Has Launched!
         </Typography>
       </Grid> 
       <Grid item lg={10} md={10} sm={12} xs={12} className="countdownDiv mb-5">
-        <Countdown id="countdown" ref={countdownRef} date={new Date(2022, 9, 28, 16, 0, 0)} />
+        <Countdown id="countdown" ref={countdownRef} date={new Date(2022, 9, 28, 12, 0, 0)} />
       </Grid>
       <Grid item lg={8} md={10} sm={12} xs={12} className={styles.afterCountdownText}>
         <Typography variant="h2" id="afterCountdownText" ref={afterCountdownTextRef}>
-          Once Node Runner Launches, Go to the Cardinal House dApp to mint your node NFTs!
+          Head on over to the Cardinal House dApp to mint your node NFTs!
         </Typography>
       </Grid>
       <Grid item lg={8} md={10} sm={12} xs={12} className="mt-5 mb-5">
-        <Tooltip title="Mint Page will be Available when Node Runner Launches!">
-          <Button variant="contained" id="mintNFTSBtn" ref={mintNFTSBtnRef} size="large">
+          <Button href="https://www.cardinalhouse.finance/dapp#purchasenoderunner" variant="contained" id="mintNFTSBtn" ref={mintNFTSBtnRef} size="large">
             Mint Your NFTs!
           </Button>
-        </Tooltip>
       </Grid>
     </Grid>
   )

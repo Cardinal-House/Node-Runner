@@ -28,11 +28,9 @@ export default function Intro(props) {
               </Button>
             </div>
             <div className={styles.floated}>
-              <Tooltip title="Mint Page will be Available when Node Runner Launches!">
-                <Button size="large" variant="outlined" color="primary" className={styles.introBtn1}>
-                  View dApp
-                </Button>
-              </Tooltip>
+              <Button href="https://www.cardinalhouse.finance/dapp#purchasenoderunner" size="large" variant="outlined" color="primary" className={styles.introBtn1}>
+                View dApp
+              </Button>
             </div>
             <div className={styles.floated}>
               <Button href="https://discord.gg/qa3GGsFfwC" target="_blank" rel="noreferrer" size="large" variant="contained" color="primary" className={styles.introBtn2}>
