@@ -31,7 +31,7 @@ export default function CountdownToLaunch(props) {
         </Typography>
       </Grid> 
       <Grid item lg={10} md={10} sm={12} xs={12} className="countdownDiv mb-5">
-        <Countdown id="countdown" ref={countdownRef} date={new Date(2022, 9, 28, 4, 0, 0)} />
+        <Countdown id="countdown" ref={countdownRef} date={new Date(2022, 9, 28, 16, 0, 0)} />
       </Grid>
       <Grid item lg={8} md={10} sm={12} xs={12} className={styles.afterCountdownText}>
         <Typography variant="h2" id="afterCountdownText" ref={afterCountdownTextRef}>
